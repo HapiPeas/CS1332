@@ -29,6 +29,11 @@ public class ArrayList<T> {
         backingArray = (T[]) new Object[INITIAL_CAPACITY];
     }
 
+    /**
+     *
+     * @param index location of the wanted data
+     * @return the data at the given index location
+     */
     public T get(int index) {
         return backingArray[index];
     }
